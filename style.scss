@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.wrapper {
+    max-width: 720px;
+    max-height: 1246px;
+    background: url('img/background.png');
+    letter-spacing:1.28px;
+
+    .middle-section {
+        width: 100%;
+        padding-top: 428px;
+        text-align: center;
+        margin-bottom: 240px;
+
+        .p-1 {
+            font-size: 24px;
+            line-height: 32px;
+            color: #fdfdfd;
+        }
+
+        .p-2 {
+            font-size: 24px;
+            line-height: 32px;
+            color: #959595;
+        }
+    }
+
+    .bottom-section {
+        padding-bottom: 85px;
+        padding-top: 43px;
+
+        .bot-same {
+            background: #cd2752;
+            border-radius: 10px;
+        }
+
+
+        .pro-1 {
+            display: block;
+            height: 90px;
+            width: 89%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+            .left-side {
+                width: 14%;
+                float: left;
+            }
+
+            .left-side::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+
+            img {
+                display: inline-block;
+                padding: 16px;
+
+            }
+
+            p {
+                display: inline-block;
+                font-size: 23px;
+                line-height: 32px;
+                color: #fdfdfd;
+                margin-top: 30px;
+                margin-left: 2%;
+            }
+        }
+
+
+        .pro-2 {
+            display: block;
+            height: 90px;
+            width: 89%;
+            margin: 0 auto;
+
+            .left-side {
+                width: 14%;
+                float: left;
+            }
+
+            .left-side::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+
+            img {
+                display: inline-block;
+                padding: 16px;
+            }
+
+            p {
+                display: inline-block;
+                font-size: 23px;
+                line-height: 32px;
+                color: #fdfdfd;
+                margin-top: 30px;
+                margin-left: 2%;
+            }
+        }
+    }
+}
